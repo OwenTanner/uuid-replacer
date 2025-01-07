@@ -1,5 +1,5 @@
 # uuid-replacer
-A Python script that identifies and replaces UUIDs in text files with newly generated UUIDs. This tool is useful for scenarios where UUIDs need to be anonymized, updated, or randomized in datasets or configuration files. It supports command-line usage with customizable input and output file paths for flexible processing.
+A Python script that identifies and replaces UUIDs in text files with newly generated UUIDs, remembering repeated UUIDs and replacing them with repeated UUIDs. This tool is useful for scenarios where UUIDs need to be anonymized, updated, or randomized in datasets or configuration files. It supports command-line usage with customizable input and output file paths for flexible processing.
 
 # Story
 While working on a job that involved creating workflows based on designs, one of the most repetitive and time-consuming tasks was duplicating similar cases and reliably replacing UUIDs in the process. This often meant manually ensuring every UUID was unique and valid, which was both tedious and error-prone.
